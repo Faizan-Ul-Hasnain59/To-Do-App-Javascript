@@ -11,4 +11,3 @@ function addTask() {
         listContainer.appendChild(li);
     }
 }
-
