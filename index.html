@@ -7,7 +7,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
-    <script src="script.js"></script>
     <title>To-Do-List</title>
 </head>
 <body>
@@ -15,9 +14,10 @@
         <div class="todo-app">
             <h2>To-Do List<img src="img/task.png" alt="task"></h2>
             <div class="row">
-            <input type="text" id="input-box" placeholder="Add your text">
-            <button onclick="addTask()">Add</button>
+                <input type="text" id="input-box" placeholder="Add your text">
+                <button onclick="addTask()">Add</button>
             </div>
+            <span id="message"></span>
             <ul id="list-container">
                 <!-- <li class="checked">Task 1</li>
                 <li>Task 2</li>
@@ -25,5 +25,6 @@
             </ul>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
